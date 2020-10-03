@@ -30,3 +30,18 @@ const lessOptions = {
     ...options,
   };
 ```
+
+[npm]: https://img.shields.io/npm/v/less-loader.svg
+[npm-url]: https://npmjs.com/package/less-loader
+[node]: https://img.shields.io/node/v/less-loader.svg
+[node-url]: https://nodejs.org
+[deps]: https://david-dm.org/webpack-contrib/less-loader.svg
+[deps-url]: https://david-dm.org/webpack-contrib/less-loader
+[tests]: https://github.com/webpack-contrib/less-loader/workflows/less-loader/badge.svg
+[tests-url]: https://github.com/webpack-contrib/less-loader/actions
+[cover]: https://codecov.io/gh/webpack-contrib/less-loader/branch/master/graph/badge.svg
+[cover-url]: https://codecov.io/gh/webpack-contrib/less-loader
+[chat]: https://img.shields.io/badge/gitter-webpack%2Fwebpack-brightgreen.svg
+[chat-url]: https://gitter.im/webpack/webpack
+[size]: https://packagephobia.now.sh/badge?p=less-loader
+[size-url]: https://packagephobia.now.sh/result?p=less-loader
