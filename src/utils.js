@@ -152,6 +152,7 @@ function getLessOptions(loaderContext, loaderOptions) {
     relativeUrls: true,
     // We need to set the filename because otherwise our WebpackFileManager will receive an undefined path for the entry
     filename: loaderContext.resourcePath,
+    javascriptEnabled: true,
     ...options,
   };
 
