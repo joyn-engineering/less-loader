@@ -17,7 +17,7 @@
 This is a fork of the official [less-loader](https://github.com/webpack-contrib/less-loader) package. The difference is that here javascript is enabled by default so you don't need to pass this option to enable it. Reason for doing so was to add javascript support for the following import: `import '!style-loader!css-loader!less-loader-with-js!./style.less';`.
 
 Only change done is to add `javascriptEnabled: true` inside of the `getLessOptions` function to `utils.js`.
-```
+```js
 const lessOptions = {
     plugins: [],
     relativeUrls: true,
