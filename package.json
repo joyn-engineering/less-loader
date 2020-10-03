@@ -3,10 +3,15 @@
   "version": "7.0.1",
   "description": "A Less loader for webpack. Compiles Less to CSS. Has javascript option enabled by default",
   "license": "MIT",
-  "repository": "joyn-engineering/less-loader-with-js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joyn-engineering/less-loader-with-js.git"
+  },
   "author": "Oleksandr Fedotov @oleks-fedotov",
   "homepage": "https://github.com/joyn-engineering/less-loader-with-js",
-  "bugs": "https://github.com/joyn-engineering/less-loader-with-js/issues",
+  "bugs": {
+    "url": "https://github.com/joyn-engineering/less-loader-with-js/issues"
+  },
   "funding": {
     "type": "opencollective",
     "url": "https://opencollective.com/webpack"
@@ -82,5 +87,8 @@
     "less.js",
     "css",
     "preprocessor"
-  ]
+  ],
+  "directories": {
+    "test": "test"
+  }
 }
