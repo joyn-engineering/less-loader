@@ -1,6 +1,6 @@
 {
   "name": "less-loader-with-js",
-  "version": "7.0.2",
+  "version": "7.0.3",
   "description": "A Less loader for webpack. Compiles Less to CSS. Has javascript option enabled by default",
   "license": "MIT",
   "repository": {
